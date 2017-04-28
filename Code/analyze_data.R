@@ -3,7 +3,7 @@ library(stringr)
 
 ###### Data fang et al 2012 ###################
 
-Data_fang <- read_csv("../Data/data_retractions.csv")
+Data_fang <- read_csv("../Data/data_fang_2012_retractions.csv")
 
 fab_str <- "(fabricated|fak[eing]+|fabricati[ong]+)"
 fals_str <- "(falsifying|falsified|falsification|false|manipulated|manipulation|biasing|tamper[ing]?)"
